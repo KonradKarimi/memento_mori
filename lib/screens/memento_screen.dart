@@ -128,14 +128,24 @@ class _MementoScreenState extends State<MementoScreen> {
         context: context,
         applicationName: "Memento Mori",
         applicationVersion: data["version"],
-        applicationIcon: const Icon(Icons.info),
+        applicationIcon: ClipRRect(
+          borderRadius: BorderRadius.circular(10),
+          child: Image.asset(
+            "assets/icons/memento_launcher.png",
+            height: 50,
+            width: 50,
+          ),
+        ),
         applicationLegalese: "© ${DateTime.now().year} Konrad Karimi",
         children: [
           Padding(
-            padding: const EdgeInsets.all(8.0),
-            child: Text(
-              S.of(context).about_description,
-              textAlign: TextAlign.justify,
+            padding: const EdgeInsets.all(18.0),
+            child: Container(
+              width: MediaQueryData.fromWindow(WidgetsBinding.instance.window).size.width * 0.5,
+              child: Text(
+                S.of(context).about_description,
+                textAlign: TextAlign.justify,
+              ),
             ),
           )
         ],

@@ -129,7 +129,7 @@ class _EntryDataState extends State<EntryData> {
         width: MediaQueryData.fromWindow(WidgetsBinding.instance.window)
                 .size
                 .width *
-            0.4,
+            0.6,
         height: MediaQueryData.fromWindow(WidgetsBinding.instance.window)
                 .size
                 .height *
@@ -146,6 +146,7 @@ class _EntryDataState extends State<EntryData> {
               children: [
                 Text(
                   "${S.of(context).textEdit_pref_life_expectancy} ${expectedYears.toInt()} ${S.of(context).text_years}",
+                  textAlign: TextAlign.center,
                   style: TextStyle(
                     fontFamily: GoogleFonts.cinzel().fontFamily,
                     fontSize: 18,

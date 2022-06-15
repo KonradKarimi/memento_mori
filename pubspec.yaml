@@ -71,6 +71,7 @@ flutter:
 
   assets:
     - assets/google_fonts/
+    - assets/icons/memento_launcher.png
 
   # To add assets to your application, add an assets section, like this:
   # assets:

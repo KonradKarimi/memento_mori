@@ -42,6 +42,6 @@ class MessageLookup extends MessageLookupByLibrary {
             "Nie znaleziono danych użytkownika 🤷🏾‍️"),
         "text_probably_dead": MessageLookupByLibrary.simpleMessage(
             "Prawdopodobnie już nie żyjesz! 🤷🏾‍"),
-        "text_years": MessageLookupByLibrary.simpleMessage("lata")
+        "text_years": MessageLookupByLibrary.simpleMessage("lat")
       };
 }
