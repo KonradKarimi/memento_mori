@@ -9,7 +9,7 @@ Be aware that time is the only asset given to you it cannot be recharged nor ren
 
 Because `Why not? 🙃`
 
-![memento_screen](assets/Smemento_screenshot.png)
+![memento_screen](assets/memento_screenshot.png)
 
 
 
